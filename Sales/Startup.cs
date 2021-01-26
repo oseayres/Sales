@@ -11,7 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Sales.Data;
-
+using Sales.Models.Services;
 
 namespace Sales
 {
@@ -42,6 +42,7 @@ namespace Sales
                     builder.MigrationsAssembly("Sales")));
 
             services.AddScoped<SeedingService>(); // registra o nosso servico no sistema da aplicacao
+            services.AddScoped<SellerService>(); // registra o nosso servico no sistema da aplicacao
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
