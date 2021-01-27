@@ -39,3 +39,4 @@ E:\Curso C#\ws-ls2019\Sales\Sales\obj\Debug\netcoreapp2.1\Razor\Views\Department
 E:\Curso C#\ws-ls2019\Sales\Sales\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
 E:\Curso C#\ws-ls2019\Sales\Sales\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
 E:\Curso C#\ws-ls2019\Sales\Sales\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
+E:\Curso C#\ws-ls2019\Sales\Sales\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
