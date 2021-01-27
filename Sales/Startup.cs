@@ -43,6 +43,7 @@ namespace Sales
 
             services.AddScoped<SeedingService>(); // registra o nosso servico no sistema da aplicacao
             services.AddScoped<SellerService>(); // registra o nosso servico no sistema da aplicacao
+            services.AddScoped<DepartmentService>(); // registra o nosso servico no sistema da aplicacao
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
