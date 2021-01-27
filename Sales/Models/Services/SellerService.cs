@@ -9,8 +9,8 @@ namespace Sales.Models.Services
 {
     public class SellerService
     {
-        public  SalesContext _context { get; set; }
-        
+        public SalesContext _context { get; set; }
+
         public SellerService(SalesContext context)
         {
             _context = context;
@@ -24,6 +24,18 @@ namespace Sales.Models.Services
         public void Insert(Seller obj)
         {
             _context.Add(obj);
+            _context.SaveChanges();
+        }
+
+        public Seller FindById(int id)
+        {
+            return _context.Seller.FirstOrDefault(obj => obj.Id == id);
+        }
+
+        public void Remove(int id)
+        {
+            var obj = _context.Seller.Find(id);
+            _context.Seller.Remove(obj);
             _context.SaveChanges();
         }
     }
